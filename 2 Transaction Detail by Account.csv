@@ -1,0 +1,18 @@
+Harbourline Plumbing Inc.
+Transaction Detail by Account
+January - December 2025
+
+Account,Date,Transaction Type,Name,Memo/Description,Amount,Balance
+Sales,,,,,,
+,03/04/2025,Invoice,Marlo Brindley,Water heater for Brindley,1200.00,1200.00
+,03/09/2025,Invoice,Quillon Redmayne,Drain work,840.00,2040.00
+Rent Expense,,,,,,
+,03/01/2025,Bill,Kingsmere Realty Ltd.,March rent,2500.00,2500.00
+Wages,,,,,,
+,03/15/2025,Payroll,Anouk Feathering,Bi-weekly wages,1800.00,1800.00
+Accounts Receivable,,,,,,
+,03/20/2025,Payment,OSGOOD DELWYN,Payment received,-400.00,0.00
+Accounts Payable,,,,,,
+Cash,,,,,,
+Payroll,,,,,,
+TOTAL,,,,,41250.00,

@@ -19,8 +19,6 @@ A single offline HTML file (about 8 MB, dictionary and place list built in) that
 - Formatting survives. Excel and Word are edited in place.
 - No file size limits. Large runs stay fast.
 - Health client mode flags conditions and drugs, not job titles or everyday phrases.
-- Regulated clients (health, legal, financial, anyone with a regulator) get everything identifying coded, including staff names.
-- Public figures, brands and products stay readable in every mode, strict included. The key always wins: a public figure who is a client's patient, customer or staff member is coded.
 - The vault format "grnd-vault-1" is fixed. Every version reads it as is. Passwords and recovery codes are never affected by an update.
 - The scrubber is never described as PIPEDA or PHIPA compliant.
 - No em dashes. Plain language, sentence case. No small uppercase label above a big title.
@@ -46,13 +44,6 @@ The key is a text file per client, kept in the encrypted vault (AES-256-GCM, pas
 8. A review report with every run: each replacement and why, each unresolved name, each suspected name not in the key, each card change. Kept with the key, never in a client folder.
 9. A legend with every run: each P- code with its current role, location and staff or customer, no names, to paste beside scrubbed text when it helps.
 10. Fixing the key inside the tool: click any code or word in the output and say what it is (this person, a new person, same as another code, just a word); edit cards on screen; one-tap fixes beside each line of the review report. No editing raw key text.
-11. Strict mode, switched on per client for regulated clients, extending health mode. It codes every kind of detail that could point to a person the client serves or employs:
-    - People: names and initials of anyone connected to the client (the people served, their families, staff, other providers).
-    - Dates and ages: dates of birth, service and appointment dates (coded, or reduced to month and year), and ages.
-    - Places: every place below province level. Provinces and countries stay readable.
-    - Organisations: any organisation name that isn't a known brand, product or public body (schools, employers, other clinics, daycares, teams).
-    - Numbers: ID-number patterns (health card, file, chart, case and member numbers).
-    - The review report ends with a short "read for unusual details" checklist, since no tool can judge what makes a situation recognizable.
 
 **Later:** text PDFs, a file profile before scrubbing, a GRND vocabulary file, the photo scrubber.
 
